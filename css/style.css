@@ -52,14 +52,14 @@ header nav ul li ul{
 }
 
 header nav ul li ul li{
-    background-color: rgba(245, 51, 145, 0.773);
+    background-color:  rgb(58, 227, 246);
     width: 250px;
 }
 header nav ul li:hover ul{
     visibility: visible;
 }
 header nav ul li:hover{
-    background-color: greenyellow;
+    background-color: rgba(49, 43, 226, 0.731);
 }
 
 /** CAROUSEL**/
@@ -93,4 +93,44 @@ header #all-slider #slider{
     5%, 15%{
         opacity: 1;
     }
+}
+/**titre du site**/
+header #titre h3{
+    color: white;
+    text-shadow: 1px 1px 1px #fff;
+}
+header #titre{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: 3em;
+    width: 720px;
+    text-align: center;
+}
+/**SECTIO BTN**/
+
+.btn-service,.btn-contact{
+    padding: 20px 0 20px 0;
+    color: #4169e1;
+    border-radius: 50px;
+    font: bold 33px arial;
+    width: 350px;
+    box-shadow: 1px 1px 3px white;
+}
+.btn-contact{
+    background-color: orange;
+}
+.btn-service{
+    background-color: blue; 
+    border-radius: 50px;
+    background-color:red ;
+    font: bold 13px Arial;
+    width: 14Opx;
+
+}
+.btn-envoyer{
+    border: none;
+    padding: 10px 15px;
+    background-color: #007E33;
+    font: bold 15 Arial;
 }
